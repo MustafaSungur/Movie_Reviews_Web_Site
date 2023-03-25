@@ -8,7 +8,7 @@
 
 ## API
 
-- it used fetch api
+- it was used fetch api
 
 * I took informations from New York Times Api
 
