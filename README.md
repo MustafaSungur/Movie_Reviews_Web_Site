@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Movie Reviews
+
+- You can view the web site https://movie-reviews-web.netlify.app/
+
+## Framework
+
+- React
+
+## API
+
+- it used fetch api
+
+* I took informations from New York Times Api
+
+## UI
+
+- Tailwind
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
