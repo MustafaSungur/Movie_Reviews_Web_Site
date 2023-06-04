@@ -1,7 +1,7 @@
 function request(query) {
   return new Promise(async (resolve, reject) => {
     const response = await fetch(
-      `https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=${query}&api-key=bpj1JPg1JnaxXFGlwTteC23IuxJsU4vZ`
+      `https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=${query}&api-key=${process.env.REACT_APP_API_KEY}`
     );
     const result = await response.json();
 
